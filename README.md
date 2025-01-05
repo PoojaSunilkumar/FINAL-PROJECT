@@ -21,7 +21,7 @@ through the implementation of data balancing techniques.
 <li>To assess an efficacy of the trained models in terms of detection using measures such as ROC curve, recall, accuracy, precision, F1-score, and complexity</li>
 
 
-<u><b>Research Question</b></u>
+<U><b>Research Question</b></U>
 
 <li>RQ1: What effect do data balancing techniques have on a performance of ML models 
 for detecting intrusions in networks when applied to the CIC-IDS-2017 and UNSW
