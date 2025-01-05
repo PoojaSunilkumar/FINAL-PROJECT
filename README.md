@@ -39,3 +39,6 @@ normal and attack records. UNSW_NB15 the dataset is structured with a training s
 175,341 records and a testing set of 82,332 records. While CIC-IDS-2017 includes 2,830,743 
 records, categorized into 15 types (one for normal traffic and 14 for various attack types). With 
 84 extracted features.
+
+![image](https://github.com/user-attachments/assets/5ce62ccc-ef44-49aa-8d52-fc05bbbd0f82)
+
