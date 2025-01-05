@@ -1,8 +1,6 @@
 # <b>A Robust Machine Learning Based System for Identification of Network Intrusions with Data Balancing</b> <div align="center">
 
-Intrusion detection systems' (IDSs) ability to protect company communication is crucial to 
-cybersecurity. The reason for this is because intrusion detection systems play a crucial role as 
-the initial defence against harmful assaults. Intruder detection using machine learning is becoming increasingly popular, but it still has some limitations that may be efficiently overcome by 
+Intrusion detection systems' (IDSs) using machine learning is becoming increasingly popular, but it still has some limitations that may be efficiently overcome by 
 integrating diverse designs. So, this study's goal is to improve an 
 efficiency of various IDS machine learning frameworks by addressing these issues through 
 the application of data balancing approaches on two prominent datasets, the UNSWNB15 and 
@@ -54,7 +52,6 @@ records, categorized into 15 types (one for normal traffic and 14 for various at
 |Algorithm 1: Intrusion detection system                                                                         |
 |----------------------------------------------------------------------------------------------------------------|
 |strategy                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------|
 |1.	Start                                                                                                        |
 |2.	 Collect the publicly available UNSW_NB15 and CIC-IDS2017 datasets.                                          |
 |3.	Data Pre-processing.                                                                                         |
@@ -71,3 +68,15 @@ records, categorized into 15 types (one for normal traffic and 14 for various at
 |11.	Apply the F1-score, recall, accuracy, and precision measures to the testing dataset to assess each model's performance.                                                                                                     |
 |12.	stop.                                                                                                      |
 
+<b>Performance Measure</b>
+
+This research assessed the efficacy of XGBoost and LSTM classifiers trained using ML for detecting network intrusions using a number of performance measures, like confusion matrix, AUC, f1-score, recall, accuracy, and precision. To comprehend these factors, a quick summary is given in the next section.
+
+<b>Results of Proposed Models </b>
+
+<ul><li>UNSW_NB15Dataset based on ML models (XGBoost, LSTM and Extra Tree) for network intrusion detection. A performance of a proposed models on the UNSW_NB15dataset reveals that LSTM achieves the best results, with Accuracy92.21%, Precision92.25%, Recall92.21%, and F1-score91.87%, highlighting its superior capability for detecting network intrusions in this dataset.</li></ul>
+<li>CIC-IDS-2017Dataset, which relies on ML models for detecting intrusions in networks, are shown in table 4.2. After comparing the suggested models' performance on the CIC-IDS-2017dataset, it is clear that an Extra Tree model is the most reliable IDS, with the greatest F1-score, Accuracy, Precision, and Recall at 99.31%. An XGBoost andLSTM models also performed well.</li>
+
+<b>Conclusion</b>
+
+This paper outlines an effective approach for designing and deploying an effective ML-IDS system enriching data preprocessing, class weighting, and model fine-tuning. Therefore, to meet these objectives this study uses datasets like UNSW_NB15 andCIC-IDS-2017 to respond to challenges of high-dimensional data and class imbalance that are essential for accurate detection of network intrusions. The dataset balancing using SMOTE-ENN and feature selection using SelectKBest greatly improved the models’ performance concerning rare intrusions detection.Furthermore, the comparative analysis of the given models indicates their advantage over the traditional approaches such as CNN for the case when the data are imbalanced and the detection rates for less representative attack types are essential. 
