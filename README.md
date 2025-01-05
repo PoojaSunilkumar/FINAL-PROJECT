@@ -51,11 +51,11 @@ records, categorized into 15 types (one for normal traffic and 14 for various at
 
 <b>Proposed algorithm</b>
 
-<table>
-  <thead>Algorithm 1: Intrusion detection system</thead>
-Strategy: 
-<tbody>1.	Start
-2.	 Collect the publicly available UNSW_NB15 and CIC-IDS2017 datasets.
+|Algorithm 1: Intrusion detection system                                                                         |
+|----------------------------------------------------------------------------------------------------------------|
+|strategy                                                                                                        |
+|1.	Start|
+|2.	 Collect the publicly available UNSW_NB15 and CIC-IDS2017 datasets.
 3.	Data Pre-processing
 a)	Check for null values and remove rows or columns with missing data.
 b)	Identify and remove duplicate records. 
@@ -72,5 +72,5 @@ b)	LSTM (Long Short-Term Memory)
 c)	XGBoost (Extreme Gradient Boosting)
 10.	Train each selected model on the training dataset.
 11.	Apply the F1-score, recall, accuracy, and precision measures to the testing dataset to assess each model's performance.
-12.	stop.</tbody> </table>
+12.	stop.
 
