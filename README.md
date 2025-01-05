@@ -54,23 +54,20 @@ records, categorized into 15 types (one for normal traffic and 14 for various at
 |Algorithm 1: Intrusion detection system                                                                         |
 |----------------------------------------------------------------------------------------------------------------|
 |strategy                                                                                                        |
-|1.	Start|
-|2.	 Collect the publicly available UNSW_NB15 and CIC-IDS2017 datasets.
-3.	Data Pre-processing
-a)	Check for null values and remove rows or columns with missing data.
-b)	Identify and remove duplicate records. 
-c)	Check for infinite values and replace or remove them. 
-d)	Drop irrelevant or redundant columns to reduce noise and simplify the dataset.
-4.	Convert categorical variables to numerical values using label encoding.
-5.	Apply the SelectKBest technique for feature selection.
-6.	Normalize the dataset using standard scaling
-7.	Apply the SMOTE-ENN technique to handle class imbalance by oversampling the minority class and using Edited Nearest Neighbors to clean the data.
-8.	Split the dataset into training and testing sets, with 80:20 ratio.
-9.	 Select machine learning models like
-a)	Extra Trees
-b)	LSTM (Long Short-Term Memory)
-c)	XGBoost (Extreme Gradient Boosting)
-10.	Train each selected model on the training dataset.
-11.	Apply the F1-score, recall, accuracy, and precision measures to the testing dataset to assess each model's performance.
-12.	stop.
+|----------------------------------------------------------------------------------------------------------------|
+|1.	Start                                                                                                        |
+|2.	 Collect the publicly available UNSW_NB15 and CIC-IDS2017 datasets.                                          |
+|3.	Data Pre-processing.                                                                                         |
+|4.	Convert categorical variables to numerical values using label encoding.                                      |
+|5.	Apply the SelectKBest technique for feature selection.                                                       |
+|6.	Normalize the dataset using standard scaling                                                                 |
+|7.	Apply the SMOTE-ENN technique to handle class imbalance by oversampling the minority class and using Edited Nearest Neighbors to clean the data.                                                                             |
+|8.	Split the dataset into training and testing sets, with 80:20 ratio.                                          |
+|9.	 Select machine learning models like.                                                                        |
+|a)	Extra Trees                            |
+|b)	LSTM (Long Short-Term Memory)          |
+|c)	XGBoost (Extreme Gradient Boosting)    |
+|10.	Train each selected model on the training dataset.                                                         |
+|11.	Apply the F1-score, recall, accuracy, and precision measures to the testing dataset to assess each model's performance.                                                                                                     |
+|12.	stop.                                                                                                      |
 
