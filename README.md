@@ -49,6 +49,5 @@ records, categorized into 15 types (one for normal traffic and 14 for various at
 <li>Check the infinite valuers</li>
 <li>Dropped irrelevant columns</li></ul>
 
-<img
- src="picture2.png" alt=""width="300" height="100">
+<img src="picture2.png" alt="downloads">
 
