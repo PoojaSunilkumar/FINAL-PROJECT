@@ -33,7 +33,7 @@ based on various performance metrics such as accuracy, precision, and recall? </
 
 <b>Proposed methodology</b>
 <ul>
-<li>collect publicly available datasets namely the UNSW_NB15 dataset from Kaggle open source and Intrusion detection evaluation dataset (CIC-IDS2017) by the CIC website.</li><li>conduct preprocessing for improve data efficiency. In pre-processing dataset cleaning by checking for and removing null, duplicate, and infinite values, as well as dropping irrelevant columns to reduce noise and complexity. </li><li>Categorical variables are converted to numerical values using label encoding to facilitate model training.</li><li> Data is normalised by standard scaling to maintain uniformity across features, and the SelectKBest approach is used to do feature selection to discover a most influential feature. </li><li>By oversampling the minority class and deleting overlapping occurrences, the SMOTE-ENN approach balances the dataset, addressing an issue of class imbalance. </li><li>The dataset is then split into two sections: 80% of the data is used for the training set, while the remaining 20% is used for the testing set.</li> <li></li>The study implements advanced machine learning algorithms, including Extra Trees, LSTM, and XGBoost, which are known for their effectiveness in detecting intrusions, to build and evaluate the predictive models. Next, use f1-score, recall, accuracy, and precision to assess the model's performance</li></ul>
+<li>collect publicly available datasets namely the UNSW_NB15 dataset from Kaggle open source and Intrusion detection evaluation dataset (CIC-IDS2017) by the CIC website.</li><li>conduct preprocessing for improve data efficiency. In pre-processing dataset cleaning by checking for and removing null, duplicate, and infinite values, as well as dropping irrelevant columns to reduce noise and complexity. </li><li>Categorical variables are converted to numerical values using label encoding to facilitate model training.</li><li> Data is normalised by standard scaling to maintain uniformity across features, and the SelectKBest approach is used to do feature selection to discover a most influential feature. </li><li>By oversampling the minority class and deleting overlapping occurrences, the SMOTE-ENN approach balances the dataset, addressing an issue of class imbalance. </li><li>The dataset is then split into two sections: 80% of the data is used for the training set, while the remaining 20% is used for the testing set.</li> <li>The study implements advanced machine learning algorithms, including Extra Trees, LSTM, and XGBoost, which are known for their effectiveness in detecting intrusions, to build and evaluate the predictive models. Next, use f1-score, recall, accuracy, and precision to assess the model's performance.</li></ul>
 
 <b>Overview of the dataset</b> 
 
@@ -43,5 +43,12 @@ normal and attack records. UNSW_NB15 the dataset is structured with a training s
 records, categorized into 15 types (one for normal traffic and 14 for various attack types). With 
 84 extracted features.
 
+<b>Data pre- processing</b>
+<ul><li>Check null values in data</li>
+<li>Dropped null values and duplicate values</li>
+<li>Check the infinite valuers</li>
+<li>Dropped irrelevant columns</li></ul>
 
+<img
+ src="picture2.png" alt=""width="300" height="100">
 
