@@ -11,10 +11,12 @@ the CIC-IDS-2017.
 <b>Task</b>: This study aims to improve the efficacy of a variety of machine learning frameworks for 
 intrusion detection systems by addressing issues associated with unbalanced datasets 
 through the implementation of data balancing techniques.
+
+
 <b>Research Question</b>
-• RQ1: What effect do data balancing techniques have on a performance of ML models 
+<li>• RQ1: What effect do data balancing techniques have on a performance of ML models 
 for detecting intrusions in networks when applied to the CIC-IDS-2017 and UNSW
-NB15 datasets? 
+NB15 datasets? </li>
 • RQ2: How do different machine learning methods enhance the performance of 
 intrusion detection on the CIC-IDS-2017 and UNSW-NB15 datasets? 
 • RQ3: What are the comparative strengths and weaknesses of the developed models 
