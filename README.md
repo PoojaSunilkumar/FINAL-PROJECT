@@ -6,13 +6,8 @@ integrating diverse designs. So, this study's goal is to improve an
 efficiency of various IDS machine learning frameworks by addressing these issues through 
 the application of data balancing approaches on two prominent datasets, the UNSWNB15 and 
 the CIC-IDS-2017.
-•	To gather and examine the UNSW-NB15 andCIC-IDS-2017 intrusion detection datasets after learn more about their structure, feature types, and data distribution.
-•	To guarantee high-quality data, preprocess datasets by standardising values, correctly labelling data, and checking and controlling null values; these steps are essential for building strong ML models.
-•	To fix imbalanced datasets, use data balancing approaches. Then, train various intrusion detection models on the balanced datasets.
-•	To enhance model performance through the use of feature engineering approaches; more particularly, to identify and extract critical features that greatly assist in detecting network intrusions.
-•	To utilise test and train datasets to develop hyperparameter-tuned DL models for NID and classification systems.
-•	To assess an efficacy of the trained models in terms of detection using measures such as ROC curve, recall, accuracy, precision, F1-score, and complexity
-</li>
+
+
 <b>Task</b>: This study aims to improve the efficacy of a variety of machine learning frameworks for 
 intrusion detection systems by addressing issues associated with unbalanced datasets 
 through the implementation of data balancing techniques.
