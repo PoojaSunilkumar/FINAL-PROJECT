@@ -74,8 +74,8 @@ This research assessed the efficacy of XGBoost and LSTM classifiers trained usin
 
 <b>Results of Proposed Models </b>
 
-<ul><li>UNSW_NB15Dataset based on ML models (XGBoost, LSTM and Extra Tree) for network intrusion detection. A performance of a proposed models on the UNSW_NB15dataset reveals that LSTM achieves the best results, with Accuracy92.21%, Precision92.25%, Recall92.21%, and F1-score91.87%, highlighting its superior capability for detecting network intrusions in this dataset.</li></ul>
-<li>CIC-IDS-2017Dataset, which relies on ML models for detecting intrusions in networks, are shown in table 4.2. After comparing the suggested models' performance on the CIC-IDS-2017dataset, it is clear that an Extra Tree model is the most reliable IDS, with the greatest F1-score, Accuracy, Precision, and Recall at 99.31%. An XGBoost andLSTM models also performed well.</li>
+<ul><li>UNSW_NB15Dataset based on ML models (XGBoost, LSTM and Extra Tree) for network intrusion detection. A performance of a proposed models on the UNSW_NB15dataset reveals that LSTM achieves the best results, with Accuracy92.21%, Precision92.25%, Recall92.21%, and F1-score91.87%, highlighting its superior capability for detecting network intrusions in this dataset.</li>
+<li>CIC-IDS-2017Dataset, which relies on ML models for detecting intrusions in networks, are shown in table 4.2. After comparing the suggested models' performance on the CIC-IDS-2017dataset, it is clear that an Extra Tree model is the most reliable IDS, with the greatest F1-score, Accuracy, Precision, and Recall at 99.31%. An XGBoost andLSTM models also performed well.</li></ul>
 
 <b>Conclusion</b>
 
