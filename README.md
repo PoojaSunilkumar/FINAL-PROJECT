@@ -12,24 +12,24 @@ the CIC-IDS-2017.
 <b>Task</b>: This study aims to improve the efficacy of a variety of machine learning frameworks for 
 intrusion detection systems by addressing issues associated with unbalanced datasets 
 through the implementation of data balancing techniques.
-
+<ul>
 <li>To gather and examine the UNSW-NB15 andCIC-IDS-2017 intrusion detection datasets after learn more about their structure, feature types, and data distribution.</li>
 <li>To guarantee high-quality data, preprocess datasets by standardising values, correctly labelling data, and checking and controlling null values; these steps are essential for building strong ML models.</li>
 <li>To fix imbalanced datasets, use data balancing approaches. Then, train various intrusion detection models on the balanced datasets.</li>
 <li>To enhance model performance through the use of feature engineering approaches; more particularly, to identify and extract critical features that greatly assist in detecting network intrusions.</li>
 <li>To utilise test and train datasets to develop hyperparameter-tuned DL models for NID and classification systems.</li>
-<li>To assess an efficacy of the trained models in terms of detection using measures such as ROC curve, recall, accuracy, precision, F1-score, and complexity</li>
+<li>To assess an efficacy of the trained models in terms of detection using measures such as ROC curve, recall, accuracy, precision, F1-score, and complexity</li></ul>
 
 
-<U><b>Research Question</b></U>
-
+<b>Research Question</b>
+<ul>
 <li>RQ1: What effect do data balancing techniques have on a performance of ML models 
 for detecting intrusions in networks when applied to the CIC-IDS-2017 and UNSW
 NB15 datasets? </li>
 <li>RQ2: How do different machine learning methods enhance the performance of 
 intrusion detection on the CIC-IDS-2017 and UNSW-NB15 datasets? </li>
 <li>RQ3: What are the comparative strengths and weaknesses of the developed models 
-based on various performance metrics such as accuracy, precision, and recall? </li>
+based on various performance metrics such as accuracy, precision, and recall? </li></ul>
 
 
 <b>Overview of the dataset</b> 
